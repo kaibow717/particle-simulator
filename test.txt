@@ -1,0 +1,45 @@
+cd ..
+
+mkdir -p particle-simulator/src/particle
+mkdir -p particle-simulator/src/physics
+mkdir -p particle-simulator/src/rendering
+mkdir -p particle-simulator/src/optimization
+mkdir -p particle-simulator/src/utils
+mkdir -p particle-simulator/shaders
+mkdir -p particle-simulator/assets
+mkdir -p particle-simulator/docs
+mkdir -p particle-simulator/tests
+mkdir -p particle-simulator/benchmarks
+
+touch particle-simulator/README.md
+touch particle-simulator/CMakeLists.txt
+touch particle-simulator/Dockerfile
+touch particle-simulator/requirements.txt
+
+touch particle-simulator/src/main.cpp
+touch particle-simulator/src/particle/Particle.h
+touch particle-simulator/src/particle/Particle.cpp
+touch particle-simulator/src/particle/ParticleSystem.cpp
+
+touch particle-simulator/src/physics/PhysicsEngine.h
+touch particle-simulator/src/physics/PhysicsEngine.cpp
+touch particle-simulator/src/physics/Forces.cpp
+
+touch particle-simulator/src/rendering/Renderer.h
+touch particle-simulator/src/rendering/Renderer.cpp
+touch particle-simulator/src/rendering/Shader.cpp
+
+touch particle-simulator/src/optimization/QuadTree.h
+touch particle-simulator/src/optimization/QuadTree.cpp
+touch particle-simulator/src/optimization/SpatialHash.cpp
+
+touch particle-simulator/src/utils/JSONExporter.h
+touch particle-simulator/src/utils/JSONExporter.cpp
+touch particle-simulator/src/utils/PerformanceProfiler.cpp
+
+touch particle-simulator/shaders/vertex.glsl
+touch particle-simulator/shaders/fragment.glsl
+
+touch particle-simulator/docs/architecture.md
+touch particle-simulator/docs/performance_analysis.md
+touch particle-simulator/docs/api_documentation.md

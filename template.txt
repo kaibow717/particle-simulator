@@ -1,0 +1,37 @@
+particle-simulator/
+├── README.md
+├── CMakeLists.txt
+├── Dockerfile
+├── requirements.txt
+├── src/
+│   ├── main.cpp
+│   ├── particle/
+│   │   ├── Particle.h
+│   │   ├── Particle.cpp
+│   │   └── ParticleSystem.cpp
+│   ├── physics/
+│   │   ├── PhysicsEngine.h
+│   │   ├── PhysicsEngine.cpp
+│   │   └── Forces.cpp
+│   ├── rendering/
+│   │   ├── Renderer.h
+│   │   ├── Renderer.cpp
+│   │   └── Shader.cpp
+│   ├── optimization/
+│   │   ├── QuadTree.h
+│   │   ├── QuadTree.cpp
+│   │   └── SpatialHash.cpp
+│   └── utils/
+│       ├── JSONExporter.h
+│       ├── JSONExporter.cpp
+│       └── PerformanceProfiler.cpp
+├── shaders/
+│   ├── vertex.glsl
+│   └── fragment.glsl
+├── assets/
+├── docs/
+│   ├── architecture.md
+│   ├── performance_analysis.md
+│   └── api_documentation.md
+├── tests/
+└── benchmarks/
